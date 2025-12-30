@@ -11,7 +11,8 @@
     </header>
     <section>
         <form action="" method="">
-            <!-- <fieldset>
+            
+            <fieldset>
                 <legend>Dados Pessoais</legend>
                 
                 <label for="name">Nome</label>
@@ -38,7 +39,7 @@
                 <input id="image" type="file" accept="image/*" name="userImage">
                 <br>
 
-            </fieldset> -->
+            </fieldset>
 
             <fieldset>
                 <legend>Perfil</legend>
@@ -117,6 +118,16 @@
 
                 <input id="x" type="checkbox" name="userSocial" value="x">
                 <label for="x">X</label>
+                <br>
+
+                <label for="musicStyle">Estilo Musical</label>
+                <input list="styleTypes" id="musicStyle" type="text">
+                <datalist id="styleTypes">
+                    <option value="rock">
+                    <option value="pop">
+                    <option value="samba">
+                    <option value="sertanejo">
+                </datalist>
                 <br>
             </fieldset>
 

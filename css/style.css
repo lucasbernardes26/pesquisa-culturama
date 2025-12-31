@@ -61,7 +61,7 @@ input,select, textarea{
     border-radius: 5px;
     border: 1px solid #cccccc;
 }
-input[type='tel']{
+input[type='tel'],input[type='file']{
     margin-bottom: 0;
 }
 small{

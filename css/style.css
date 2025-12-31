@@ -51,6 +51,9 @@ p{
     margin-bottom: 15px;
     font-weight: bold;
 }
+textarea{
+    min-height: 100px;
+}
 input,select, textarea{
     width: 100%;
     padding: 10px;
@@ -58,9 +61,14 @@ input,select, textarea{
     border-radius: 5px;
     border: 1px solid #cccccc;
 }
-textarea{
-    min-height: 100px;
+input[type='tel']{
+    margin-bottom: 0;
 }
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 input[type="checkbox"],input[type="radio"]{
 width: auto;
 }
